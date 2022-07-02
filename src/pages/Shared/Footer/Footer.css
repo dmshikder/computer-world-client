@@ -1,0 +1,13 @@
+.icons a {
+  color: black;
+  /* font-size: 25px; */
+  margin: 12px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+}
