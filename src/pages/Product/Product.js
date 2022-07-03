@@ -1,14 +1,15 @@
+import { useNavigate } from 'react-router-dom';
 import './Product.css';
 
 
 const Product = ({product}) => {
-    const {img,name, description, price,quantity,supplier} = product;
-    // const navigate = useNavigate();
+    const {id,img,name, description, price,quantity,supplier} = product;
+    const navigate = useNavigate();
     
-    // const navigateToServiceDetail = id =>{
-    //     navigate(`/inventory/${id}`)
+    const navigateToServiceDetail = id =>{
+        navigate(`/inventory/${id}`)
           
-    // }
+    }
     return (
         <div className='product'>
             <img className='w-100' src={img} alt="" />
@@ -17,8 +18,8 @@ const Product = ({product}) => {
             <p> <span className='fw-bold'>Price:</span> ${price}</p>
             <p><span className='fw-bold'>Quantity: </span>{quantity}</p>
             <p><span className='fw-bold'>Supplier: </span>{supplier}</p>
-            {/* <button onClick={()=>navigateToServiceDetail(_id)} className='btn btn-primary'>Book: {name} </button> */}
-            <button  className='btn btn-primary'>Update Product </button>
+            <button onClick={()=>navigateToServiceDetail(id)} className='btn btn-primary'>Update Product </button>
+            
         </div>
     );
 };

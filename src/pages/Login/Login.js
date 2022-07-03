@@ -1,8 +1,8 @@
 import { useRef } from "react";
 import { Button, Form } from "react-bootstrap";
 import {
-    useSendPasswordResetEmail,
-    useSignInWithEmailAndPassword
+  useSendPasswordResetEmail,
+  useSignInWithEmailAndPassword
 } from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
@@ -11,7 +11,7 @@ import auth from "../../firebase.init";
 import useToken from "../hooks/useToken";
 import Loading from "../Shared/Loading/Loading";
 import SocialLogin from "./SocialLogin/SocialLogin";
-// import SocialLogin from "../Login/SocialLogin/SocialLogin";
+
 
 const Login = () => {
   const emailRef = useRef("");
