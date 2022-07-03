@@ -4,7 +4,8 @@ import './Products.css';
 const Products = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-      fetch("../../../public/fakedata.json")
+      
+      fetch("fakedata.json")
         .then((res) => res.json())
         .then((data) => setProducts(data));
     }, []);

@@ -1,90 +1,90 @@
 [
   {
-    "img": "http://placehold.it/32x32",
+    "img": "https://i.ibb.co/cvsrN0x/2021-ASUS-Vivobook.jpg",
     "description": "17.3 inch HD+ Display Laptop Intel 10th Gen 4-Core i7-1065G7 Intel Iris Plus Graphics 32GB RAM DDR4 1TB M.2 NVMe SSD 1TB HDD HDMI USB-C WiFi AC Silver Windows 10 Home w/ RE Accessories",
     "price": 1099,
     "quantity": 3,
     "name": "2021 ASUS Vivobook",
-    "supplier-name": " a1"
+    "supplier": " zack sone"
   },
   {
-    "img": "http://placehold.it/32x32",
+    "img": "https://i.ibb.co/Jd1Fszr/2022-ASUS-TUF-Dash.jpg",
     "description": "15.6 Ultra Slim Gaming Laptop 144Hz FHD IPS Intel 4-Core i7-11370H NVIDIA GeForce RTX 3050TI 40GB RAM DDR4 1TB NVMe SSD USB C WiFi AX HDMI 2.0 RJ-45 Thunderbolt 4 Windows 11 Home",
     "price": 1499,
     "quantity": 8,
     "name": "2022 ASUS TUF Dash",
-    "supplier-name": " a12"
+    "supplier": " Markuse robert"
   },
   {
-    "img": "http://placehold.it/32x32",
+    "img": "https://i.ibb.co/2qrsYkT/ASUS-Expert-Book-B5-Thin-Light-Flip-Business-Laptop.jpg",
     "description": "13.3  FHD OLED, Intel Core i7-1165G7, 1TB SSD, 32GB RAM, all day battery, Enterprise-grade video conference, NumberPad, Win 10 Pro, B5302FEA-XH77T",
     "price": 1652,
     "quantity": 14,
     "name": "ASUS ExpertBook B5 Thin & Light Flip Business Laptop",
-    "supplier-name": " a1151"
+    "supplier": " Eddie Wilkerson"
   },
   {
-    "img": "http://placehold.it/32x32",
+    "img": "https://i.ibb.co/n8R9XWy/ASUS-Pro-Art-Studio-Book-Pro.jpg",
     "description": "14 inch 2.8K 16:10 OLED Touch Display, Intel Core i9-12900H CPU, 32GB RAM, 1TB SSD, Windows 11 Pro, ZenVision Display, UX5401ZAS-XS99T",
     "price": 1999,
     "quantity": 31,
     "name": "ASUS ZenBook 14X OLED Space Edition Laptop",
-    "supplier-name": " a231"
+    "supplier": " Andres Christensen"
   },
   {
-    "img": "http://placehold.it/32x32",
+    "img": "https://i.ibb.co/L1T2d6n/ASUS-ROG-Strix-Scar-15-2022.jpg",
     "description": "15.6 FHD 120Hz Gaming Laptop | Intel 6-Core i7-9750H Upto 4.5GHz | 32GB RAM | 1280 GB Hybrid Drive | NVIDIA GeForce GTX 1650 | Illuminated Chiclet Keyboard RGB | Windows 10",
     "price": 1414,
     "quantity": 13,
     "name": "Newest ASUS ROG Strix G",
-    "supplier-name": " a2231"
+    "supplier": " Debra Vargas"
   },
   {
-    "img": "http://placehold.it/32x32",
+    "img": "https://i.ibb.co/4Ptj17B/ASUS-Zen-Book-14-X-OLED-Space-Edition-Laptop.jpg",
     "description": "15.6 OLED UHD Touch Display, Intel Core i9-11900H, 32GB RAM, 1TB SSD, GeForce RTX 3060, ScreenPad™ Plus, Windows 11 Pro, Celestial Blue, UX582HM-XH96T",
     "price": 2631,
     "quantity": 23,
     "name": "ASUS ZenBook Pro Duo 15 OLED UX582 Laptop",
-    "supplier-name": " xjk1"
+    "supplier": " Doris Mendoza"
   },
   {
-    "img": "http://placehold.it/32x32",
+    "img": "https://i.ibb.co/h125Y7h/ASUS-Zen-Book-Pro-Duo-15-OLED-UX582-Laptop.jpg",
     "description": "NVIDIA GeForce RTX 3080 - 11th Gen Intel 8-Core i7 CPU - 15.6” FHD 360Hz - 32GB RAM - 1TB SSD - CNC Aluminum - Chroma RGB - THX Spatial Audio - Thunderbolt 3",
     "price": 2799,
     "quantity": 22,
     "name": "Razer Blade 15 Gaming Laptop",
-    "supplier-name": " turecv"
+    "supplier": " Rufus Colon"
   },
   {
-    "img": "http://placehold.it/32x32",
+    "img": "https://i.ibb.co/HxXJdcs/Newest-ASUS-ROG-Strix-G.jpg",
     "description": "Gaming Laptop, 15.6” 240Hz IPS QHD Display, NVIDIA GeForce RTX 3080 Ti, Intel Core i9 12900H, 32GB DDR5, 1TB SSD, Per-Key RGB Keyboard, Windows 11 Pro, G533ZX-XS96",
     "price": 3184,
     "quantity": 25,
     "name": "ASUS ROG Strix Scar 15 (2022)",
-    "supplier-name": " axajla1"
+    "supplier": " Jean Matthews"
   },
   {
-    "img": "http://placehold.it/32x32",
+    "img": "https://i.ibb.co/5nV9256/Razer-Blade-Gaming-Laptop.jpg",
     "description": "W700G3T-XS77 Workstation Laptop (Intel i7-9750H 6-Core, 32GB RAM, 1TB PCIe SSD, NVIDIA Quadro RTX 3000 Max-Q, 17.0 1920x1200, Active Pen, Win 10 Pro) with USB Hub",
     "price": 1699,
     "quantity": 36,
     "name": "ASUS ProArt StudioBook Pro",
-    "supplier-name": " ajmal1"
+    "supplier": " Constance Williams"
   },
   {
-    "img": "http://placehold.it/32x32",
+    "img": "https://i.ibb.co/Fb3fKPn/Razer-Blade-15-Gaming-Laptop.jpg",
     "description": "NVIDIA GeForce RTX 3080 Ti - 12th Gen Intel 14-Core i7 CPU - 15.6” QHD 240Hz - 32GB DDR5 RAM, 1TB PCIe SSD - Windows 11 - CNC Aluminum - Chroma RGB - Thunderbolt 4",
     "price": 3699,
     "quantity": 12,
     "name": "Razer Blade  Gaming Laptop",
-    "supplier-name": " rasi1"
+    "supplier": " Olive Lucas"
   },
   {
-    "img": "http://placehold.it/32x32",
+    "img": "https://i.ibb.co/pWFmPdv/ROG-Zephyrus-S-GX701-Gaming-Laptop.jpg",
     "description": "17.3 HDR 144Hz FHD IPS, GeForce RTX 2080, Intel Core i7-9750H Processor, 32GB DDR4, 1TB PCIe NVMe SSD Hyper Drive, Windows 10 Pro, GX701GX-XB78",
     "price": 5299,
     "quantity": 8,
     "name": "ROG Zephyrus S GX701 Gaming Laptop",
-    "supplier-name": " ambar1"
+    "supplier": " Gladys Burton"
   }
 ]
