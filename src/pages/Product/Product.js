@@ -3,10 +3,10 @@ import './Product.css';
 
 
 const Product = ({product}) => {
-    const {id,img,name, description, price,quantity,supplier} = product;
+    const {_id,img,name, description, price,quantity,supplier} = product;
     const navigate = useNavigate();
     
-    const navigateToServiceDetail = id =>{
+    const navigateToInventoryDetail = id =>{
         navigate(`/inventory/${id}`)
           
     }
@@ -18,7 +18,7 @@ const Product = ({product}) => {
             <p> <span className='fw-bold'>Price:</span> ${price}</p>
             <p><span className='fw-bold'>Quantity: </span>{quantity}</p>
             <p><span className='fw-bold'>Supplier: </span>{supplier}</p>
-            <button onClick={()=>navigateToServiceDetail(id)} className='btn btn-primary'>Update Product </button>
+            <button onClick={()=>navigateToInventoryDetail(_id)} className='btn btn-primary'>Update Product </button>
             
         </div>
     );
