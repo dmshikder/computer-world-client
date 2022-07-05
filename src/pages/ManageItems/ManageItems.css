@@ -1,0 +1,33 @@
+.manageItem {
+  border: 2px solid rgb(13, 100, 172);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.manage {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 40%;
+}
+
+.deleteButton {
+  border: none;
+  padding: 5px 20px;
+  background-color: rgb(97, 97, 231);
+  color: white;
+
+  border-radius: 10px;
+}
+
+.deleteButton:hover {
+  background-color: greenyellow;
+  color: black;
+}

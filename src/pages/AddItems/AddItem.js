@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-const AddProduct = () => {
+const AddItem = () => {
   const {
     register,
     handleSubmit,
@@ -42,4 +42,4 @@ const AddProduct = () => {
   );
 };
 
-export default AddProduct;
+export default AddItem;

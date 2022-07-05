@@ -35,7 +35,7 @@ const Inventory = () => {
             <input type="number" name="quantity" id="" placeholder="insert quantity" />
             <button className="d-flex flex-column" type="submit">restock the items</button>
          </div>
-         <button className="manageInventoryBtn mb-2 "><Link  to='/manageInventories'>Manage Inventories</Link></button>
+         <button className="manageInventoryBtn mb-2 "><Link  to='/manageItems'>Manage Items</Link></button>
         </div>
     );
 };
