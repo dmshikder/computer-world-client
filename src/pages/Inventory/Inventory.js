@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import AddProduct from "../AddProduct/AddProduct";
+import { Link, useParams } from "react-router-dom";
 
 const Inventory = () => {
     const {inventoryId} = useParams();
@@ -17,7 +16,7 @@ const Inventory = () => {
    
     
     return (
-        <div>
+        <div className="w-50 mx-auto">
             <img src={product.img} alt="" />
             
            <h2>Product Id: {inventoryId} </h2>
@@ -32,7 +31,11 @@ const Inventory = () => {
            <button className='btn btn-primary mb-5'>Delivered</button>
          
           </div>
-          <AddProduct></AddProduct>
+         <div>
+            <input type="number" name="quantity" id="" placeholder="insert quantity" />
+            <button className="d-flex flex-column" type="submit">restock the items</button>
+         </div>
+         <button className="manageInventoryBtn mb-2 "><Link  to='/manageInventories'>Manage Inventories</Link></button>
         </div>
     );
 };
