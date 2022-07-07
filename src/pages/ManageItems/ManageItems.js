@@ -23,7 +23,7 @@ const ManageItems = () => {
     <div className="w-50 mx-auto">
       <h2>Manage inventory items</h2>
     <div className="manage">
-    {inventories.map((inventory) => (
+    {inventories.map(inventory => (
         <div className="manageItem"  key={inventory._id}>
 
           <img className="image" src={inventory.img} alt="" />

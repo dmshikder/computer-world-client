@@ -16,7 +16,7 @@ const Product = ({product}) => {
             <h2>{name}</h2>
             <p><small><span className='fw-bold'>Description:</span> {description}</small></p>
             <p> <span className='fw-bold'>Price:</span> ${price}</p>
-            <p><span className='fw-bold'>Quantity: </span>{quantity}</p>
+            <p><span className='fw-bold'>Quantity: </span> </p>
             <p><span className='fw-bold'>Supplier: </span>{supplier}</p>
             <button onClick={()=>navigateToInventoryDetail(_id)} className='btn btn-primary'>Update Item </button>
             
