@@ -16,7 +16,7 @@ const Header = () => {
   
 
     return ( 
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="header">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="header navbar sticky-top">
       <Container>
         <Navbar.Brand href="#home">Computer World</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

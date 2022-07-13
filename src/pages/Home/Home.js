@@ -1,17 +1,18 @@
-import Products from "../Products/Products";
 import Banner from "./Banner/Banner";
 import ChooseUs from "./ChooseUs/ChooseUs";
-import Testimonials from "./Testimonials/Testimonials";
+import InventoryHome from "./InventoryHome/InventoryHome";
+import Location from "./Location/Location";
 
 const Home = () => {
     return (
         <div>
   
          <Banner></Banner>
-        <Products></Products>
-        
+        <InventoryHome></InventoryHome>
          <ChooseUs></ChooseUs>
-         <Testimonials></Testimonials>
+         <Location></Location>
+
+         
         </div>
     );
 };

@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useRef } from "react";
 import { Button, Form } from "react-bootstrap";
 import {
@@ -5,7 +6,7 @@ import {
   useSignInWithEmailAndPassword
 } from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import auth from "../../firebase.init";
 import useToken from "../hooks/useToken";
@@ -46,6 +47,9 @@ const Login = () => {
     const password = passwordRef.current.value;
 
     await signInWithEmailAndPassword(email, password);
+    const {data} = await axios.post('https://mysterious-eyrie-32357.herokuapp.com/login', {email});
+    localStorage.setItem("accessToken", data.accessToken);
+    // navigate(from, { replace: true });
   };
 
   const navigateRegister = (event) => {
@@ -108,7 +112,7 @@ const Login = () => {
         </button>{" "}
       </p>
       <SocialLogin></SocialLogin>
-      <ToastContainer />
+     
     </div>
   );
 };

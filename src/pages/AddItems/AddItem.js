@@ -1,20 +1,24 @@
 import axios from 'axios';
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useForm } from "react-hook-form";
+import { useParams } from "react-router-dom";
+import { toast } from 'react-toastify';
 import auth from "../../firebase.init";
 const AddItem = () => {
   const [user] = useAuthState(auth);
+  const {inventoryId} = useParams();
+
+
+
  const email = user.email;
- console.log(email)
+ 
   const {
     register,
-    handleSubmit,
-    watch,
-    formState: { errors },
+    handleSubmit
   } = useForm();
   const onSubmit = (data) => {
     console.log(data)
-    const url = `http://localhost:5000/inventory`;
+    const url = `https://mysterious-eyrie-32357.herokuapp.com/inventory`;
     fetch(url,{
         method:'POST',
         headers: {
@@ -26,16 +30,22 @@ const AddItem = () => {
     .then(result=>{
         console.log(result);
     })
-    const order = {
-      email: user.email
+    const myItem = {
+      email: user.email,
+      name: data.name,
+      img: data.img,
+      description: data.description,
+      price:data.price,
+      quantity: data.quantity,
+      supplier:data.supplier
     }
-    axios.post('http://localhost:5000/myItem', order )
+    axios.post('https://mysterious-eyrie-32357.herokuapp.com/myItem', myItem )
     .then(response =>{
       const {data} = response;
+      
       if(data.insertedId){
-        console.log('ok you can try')
-        
-
+        toast('Item Added');
+              
       }
     })
 };
@@ -48,7 +58,7 @@ const AddItem = () => {
       <form className="d-flex flex-column" onSubmit={handleSubmit(onSubmit)}>
 
       <input className="mb-2" placeholder="name"  {...register("name")} />
-      <input className="mb-2"  {...register("email")} />
+      <input className="mb-2" value={email}  {...register("email")} />
       
         <textarea className="mb-2" placeholder="description"  {...register("description")} />
        

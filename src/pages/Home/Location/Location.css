@@ -1,0 +1,11 @@
+.news li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.news li a:hover {
+  background-color: greenyellow;
+  padding: 6px;
+  border-radius: 10px;
+}

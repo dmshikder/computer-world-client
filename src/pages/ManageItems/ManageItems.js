@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import useItems from "../hooks/useItems";
 import "./ManageItems.css";
 
@@ -7,14 +8,14 @@ const ManageItems = () => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure?");
     if (proceed) {
-      const url = `http://localhost:5000/inventory/${id}`;
+      const url = `https://mysterious-eyrie-32357.herokuapp.com/inventory/${id}`;
       fetch(url, {
         method: "DELETE",
       })
         .then((res) => res.json())
         .then((data) => {
           console.log(data);
-          const remaining = inventories.filter((service) => service._id !== id);
+          const remaining = inventories.filter((inventory) => inventory._id !== id);
           setInventories(remaining);
         });
     }
@@ -35,6 +36,7 @@ const ManageItems = () => {
         </div>
       ))}
     </div>
+    <button className="manageInventoryBtn mb-2 "><Link  to='/addItem'>Add new item</Link></button>
     </div>
   );
 };
