@@ -55,7 +55,7 @@ const Header = () => {
               </button>
             ) : (
               <Nav.Link as={Link} to="/login">
-                Login
+                Login/Register
               </Nav.Link>
             )}
           </Nav>
