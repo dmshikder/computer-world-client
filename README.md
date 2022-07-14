@@ -1,12 +1,12 @@
 # Computer World
 
-Live link: [Computer world](https://github.com/facebook/create-react-app). ||
-Client side link: [Computer world](https://github.com/facebook/create-react-app). ||
-Server side link: [Computer world](https://github.com/facebook/create-react-app).
+Live link: [Computer world](https://computer-world-c827d.web.app). ||
+Client side github link: [Computer world](https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-dmshikder). ||
+Server side github link: [Computer world](https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-dmshikder).
 
-About this projects: This is a inventory managment website. You can monitor your Digital products by using this website.
+About this projects: This is a inventory managment website. You can store and monitor your Digital products by using this website.
 
-Features and functionality used in this projects are:
+## Features and functionality I have used in this projects are:
 
 - Bootstrap 5
 - react
