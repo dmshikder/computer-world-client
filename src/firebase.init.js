@@ -5,15 +5,6 @@ import { getAuth } from 'firebase/auth';
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDeB0_vOYrVAuva-Be975g29T-bZav5Pws",
-//   authDomain: "computer-world-c827d.firebaseapp.com",
-//   projectId: "computer-world-c827d",
-//   storageBucket: "computer-world-c827d.appspot.com",
-//   messagingSenderId: "431156882990",
-//   appId: "1:431156882990:web:f37ccaf4e1d72e3bc579bf"
-// };
-
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_apiKey,
   authDomain: process.env.REACT_APP_authDomain,
